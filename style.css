@@ -1,0 +1,20 @@
+h1{
+    color: black
+}
+#hero-section{
+background-color:purple;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    display: flex;
+    align-items: center;
+}  
+
+.text-center{
+    text-align:center;
+}
+
+.btn{
+    padding: 10px20px;
+    background-color: orchid;
+}

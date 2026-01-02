@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="bg-white justify-between flex items-center max-w-[1500px] p-4 mx-auto ">
+                <div class="text-color-black-500 font-bold px-3 py-3 border-black border-3 text-2xl">HOUSKIT</div>
+
+                <div class=" hidden w-150 lg:flex bg-white justify-between flex  items-center mx-4 my-2 ">
+                    <div class="text-m text-black-500">HOME</div>
+                    <div class="text-m text-black-500">SHOP</div>
+                    <div class="text-m text-black-500">PROMOTIONS</div>
+                    <div class="text-m text-black-500">BLOG</div>
+                    <div class="text-m text-black-500">BAGES</div>
+                    <div class="text-m text-black-500">VONDER</div>
+                </div>
+                <div class=" w-40 hidden lg:flex justify-between flex justify-items-center  bg-white mr-20 ">
+                    <i class="fi fi-rr-search"></i>
+                    <div class="text-m text-black-500">search</div>
+                    <i class="fi fi-rs-shopping-bag"></i>
+                    <div class="text-m text-black-500">char(0)</div>
+                </div>
+                <div onclick="menuButton()" class="lg:hidden"><i class="fi fi-rr-menu-burger rounded-xl bg-gray-200"></i></div>
+            </div> 
+            <div id="menu" class="absolute hidden lg:hidden w-full space-y-5 p-10 bg-white  *:cursor-pointer">
+            <div class="text-m text-orange-500 hover:text-orange-500">HOME</div>
+            <div class="text-m hover:text-orange-500">SHOP</div>
+            <div class="text-m hover:text-orange-500">PROMOTIONS</div>
+            <div class="text-m hover:text-orange-500">BLOG</div>
+            <div class="text-m hover:text-orange-500">PAGES</div>
+            <div class="text-m hover:text-orange-500">VENDOR</div>
+            <div class="text-m fi fi-rs-search">search</div>
+            <div class="text-m ">cart</div>
+        </div>
+    </header>
+    <main>
+        <section>
+        <div class="bg-[url('s-4.jpg')] h-150 no-repeat bg-cover mx-auto">
+            <div class="ml-5 mt-5 mx-auto px-3 py-3  text-white pl-60">
+        <div class=" pt-40 text-4xl text-m font-bold-3 font-wight-200 mx-auto">Lamp & Lighting</div>
+        <div class=" pt-2 text-4xl text-m font-bold-3  font-wight-200 mx-auto">Minimalist Furnitures</div>
+        <div class=" pt-2 text-sm font-bold-3  mx-auto">Lorem ipsum folor sit amet consectetur adipiscing elit.</div>
+        <div class=" pt-2 text-sm font-bold-3 mx-auto">Sed aci erat dales vitakse dalesnon estin viae.</div>
+        <div class=" pt-2 text-m font-bold-3 border-black border-2 text-center w-fit mx-1 my-1">SHOP NOW</div>
+        </div>
+            </div>
+        </div>
+    </section>
+<section class= " flex justify-between max-w-[1000px] mx-auto pt-40 pb-20 text-center grid grid-cols-1 lg:grid-cols-3">
+    <div>
+        <i class="fi fi-ts-truck-moving  text-2xl text-color-black-500  mx-auto text-center pb-5"></i>
+        <h1 class="pt-2"> FREE SHOPING</h1>
+        <p class="pt-2">Lorem ipsrm dolor sit amet cansectetur</p>
+        <p class="pt-2"> adipiscing elit.</b>Sed aci erat</p>        
+    </div>
+    <div>
+          <i class="fi fi-br-line-width  text-2xl text-color-black-500 mx-auto pb-5"></i>
+         <h1 class="pt-2">MONEY GUARATEE </h1>
+         <p class="pt-2"> Korem ipsum dolor sit amet consectetur</p>
+         <p class="pt-2"> adipiscing elit.</b>Sed aci erat</p>
+    </div>
+    <div>
+      <i class="fi fi-ts-restaurant text-2xl text-color-black-500 mx-auto text-center pb-5"></i>
+      <h1 class="pt-2">ONLINE SUPPORT </h1>
+      <p class="pt-2"> Lorem ipsum dolor sit amet consectetur</p>
+      <p class="pt-2"> adipiscing elif.Sed aci erat</p>
+    </div>
+</section>
+<section>
+  <div>
+        <div class="grid grid-cols-1 md:grid-cols-3 px-10 gap-[20px] max-w-[1000px] mx-auto">
+            <div class="bg-[url('dm1.jpg')] bg-cover text-black text-2xl flex justify-center h-60 pt-25 ">AUDIO & </br> SPEAKER</div>
+
+        <div class="bg-[url('dm2.jpg')] h-60 bg-cover text-black pt-3 col-span-2  pl-70 text-center">
+            <h1 class="text-2xl">Clean & Clear</h1>
+            <h1 class="text-2xl">Porelain For Your Kitchen</h1>
+            <h3 class=" flex justify-center">Price Form:<p calss="text-color-Orange-500">$39.00</p></h3>
+            <h3 class="border-2 w-fit text-center mx-auto mt-1">SHOP NOW</h3>
+        </div>
+        
+        <div class="bg-[url('dm3.jpg')] h-60  bg-cover text-black col-span-2 pt-3 pl-70 text-center">
+                <h1 class="text-2xl">Clean & Clear Porelain</h1>
+                <h1 class="text-2xl">For Your Kitchen</h1>
+                <h3 class=" flex justify-center">Price form:<p calss="text-color-Orange-500">$69.00</p></h3>
+                <h3 class="border-2 w-fit text-center mx-auto mt-1 ">SHOP NOW</h3>
+        </div>
+
+        <div class="bg-[url('dm4.jpg')] bg-cover h-60 text-center text-2xl flex justify-center pt-25">Furniture</br> and </br>decore</div>
+        </div>
+    </div>
+</section>
+
+      <section>
+        <div class="text-2xl font-bold-3 text-color-black-500 text-center mx-auto pt-20 [max-w-1000px]">NEW ARRIVALS</div>
+        <div>
+        <div class="text-1xl font-bold-1 text-color-black-500 text-center mx-auto  pt-2 [max-w-1000px]">
+            <p class="p-2">Lorem ipsum folor sit arnet consectetur adipiscing elit.Sed aci erat dales vitakse</p>
+                <p class="p-2 pb-20">dalesnon estin vitae egestas enim in pretium nulla.</p>
+        </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[15px] px-10 max-w-[1000px]  mx-auto">
+            <div>
+                <img src="13-2.jpg" alt="" class="w-full">
+                <p>Viverra Pasuere  Mattis Eu</p>
+                <p>$70.00</p>
+            </div>
+            <div>
+                <img src="2-6.jpg" alt="" class="w-full">
+                <p>Viverra Posuere Mattis </p>
+                <p>$70.00</p>
+            </div>
+            <div>
+                <img src="1a-300x360.jpg" alt="" class="w-full">
+                <p>Ut Sollicitudin Gravida Tellu</p>
+                <p>$55.00</p>
+            </div>
+            <div> 
+                <img src="15-2-300x360.jpg" alt="" class="w-full">
+                <p>Nisi Ut Aliqu</p>
+                <p>$70.00</p>
+            </div>
+        </div>
+       
+    </section>
+
+
+    <section>
+       <div class="text-2xl font-bold-3 text-color-black-500 text-center mx-auto pt-20 [max-w-1000px]">FEATURED PRODUCIS</div>
+       <div class="text-1xl font-bold-1 text-color-black-500 text-center mx-auto p-2 [max-w-1000px]">
+            <p class="p-2">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p> 
+            <p class="p-2 pb-20">Sed aci erat dales vitakse estin dalesnon vitae egestas enim in pretium nulla.</p>
+       </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[15px]  px-10 flex justify-between max-w-[1000px]  pb-20 mx-auto ">
+            <div>
+                <img src="p-9.jpg" alt="" class="w-full">
+                <p>Nist Ut Aliqu</p>
+                <p>$60.00-$70.00</p>
+            </div>
+            <div>
+              <img src="p-10.jpg" alt="" class="w-full">
+               <p>Sapien Non Ornare</p>
+               <p>$69.00</p>
+            </div>
+            <div>
+                <img src="p-11.jpg" alt="" class="w-full">
+                <p>Nunc Imperdiet Sed Erat Vel</p>
+                <p>$68.00</p>
+            </div>
+            <div class="bg-[url('p-12.jpg')">
+                <img src="p-12.jpg" alt="" class="w-full">
+                <p>In Purus lpsum</p>
+                <p>$65.00</p>
+            </div>
+    </div>
+
+    </section>
+    <section>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 flex  place-items-center justify-between px-10  pt-10 pb-10 max-w-[1000px] border-black border-1 mx-auto ">
+            <img src="br1.png" alt="" class="w-40 flex">
+            <img src="br2.png" alt="" class="w-40 flex">
+            <img src="br3.png" alt="" class="w-40 flex">
+            <img src="br4.png" alt="" class="w-40 flex">
+            <img src="br5.png" alt="" class="w-40 flex">
+            <img src="br6.png" alt="" class="w-40 flex">
+        </div>
+    </section>
+    <section>
+        <div class="text-2xl font-bold-3 text-color-black-500 text-center gap-[15px] mt-10 mx-auto max-w-[1000px] justify-between">LATEST BLOG</div>
+        <div>
+            <div class="text-1xl font-bold-1 text-color-black-500 text-center mt-3 mx-auto max-w-[1000px] justify-between">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Sed aci erat dales vitakse</p>
+                <p>dalesnon estin vitae egestas enim in pretium nulla.</p>
+            </div>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 flex justify-between mx-auto max-w-[1000px] gap-[15px]   px-10 pt-20 pb-10 md:gap-5 lg:gap-20">
+            <div>
+            <img src="s-1.jpg" alt="" class="w-full">
+            <h3 class="pt-5  justify-center flex">October 14,2016
+                <p class="ml-3">post by:
+                    <p class="text-color-orange-500 ml-1">Wpthemego</p>
+                </p>
+            </h3>
+            <h1 class="pt-5">UIIAMCO LABORIS NISI UT ALIQUIP EX</h1>
+             <p class="pt-3">Lorem ipsum is simply dummy text of the printing and</p>
+                <p>typesetting imdustry.Lorem lpsum has...</p>
+                <button class="border-black border-2 pt-3  text-center ">READ MORE</button>
+            </div>
+        <div>
+            <img src="s-2.jpg" alt="" class="w=full">
+             <h3 class="pt-5 justify-center flex">October 14,2016
+                 <p class="ml-3">post by: Wpthemego</p>
+             </h3>
+            <h1  class="pt-5">UT LABORE ET DOLORE MAGNA ALIQUA</h1>
+            <h2>
+                <p class="pt-3">Lorem ipsum is simply dummy text of the printing and</p>
+                <p>typesetting industry.Lorem lpsum has...</p>
+            </h2>
+            <button class="border-black border-2 pt-3  text-center">READ MORE</button>
+        </div>
+        <div>
+            <img src="s-3.jpg" alt="" class="w-full">
+             <h3 class="pt-5 justify-center flex">October 14,2016
+                 <p class="ml-3">post by: Wpthemego</p>
+             </h3>
+            <h1 class="pt-5">EIUSMOFD TEMPOR INCIDIDUNT UT</h1>
+            <h2>
+                <p class="pt-3">Lorem ipsum is simply dummy text of the printing and</p>
+                <p>typesetting industry.Lorem lpsum has...</p>
+            </h2>
+            <button class="border-black border-2 pt-3 text-center">READ MORE</button>
+        </div>
+</section>
+    </main>
+<footer>
+    <section class=" bg-black/50 ">
+    <div 
+        class="grid grid-cols-3 lg:gap-10 mx-auto max-w-[1000px]  pt-15 flex justify-between px-10">
+        <div class="text-white">
+            <h1 >ABOUT STORE</h1>
+            <h3 class="pt-5"><i class="fi fi-sc-home"></i>Ranelagh Place,Liverpool,L3 5UL,England </h3>
+            <h3 class="pt-2"><i class="fi fi-tr-circle-phone"></i> 8(495) 989-20-11</h3>
+            <h3 class="pt-2"> <i class="fi fi-rc-envelope"></i>contact@wpthemego.com</h3>
+            <div class="flex justify-between  text-white grid grid-cols-5 w-50  pb-20 pt-10">
+                <img src="facebook.svg" alt="" class="w-7">
+                <img src="pinterest.svg" alt="" class="w-7">
+                <img src="google-circle (1).svg" alt="" class="w-7">
+                <img src="twitter-alt-circle.svg" alt="" class="w-7">
+                <img src="instagram-circle (1).svg" alt="" class="w-7">
+            </div>
+        </div>
+        <div class="text-white">
+            <h1>INFORMATAION</h1>
+            <h3 class="pt-5">Shipping Guide</h3>
+            <h3 calss="pt-2">Store Location</h3>
+            <h3 calss="pt-2">Afiliates</h3>
+            <h3 calss="pt-2">Customer Point Policy</h3>
+            <h3 calss="pt-2">Customer Point Policy</h3>
+        </div>
+        <div class="text-white">
+            <h1>CUSTOMER SERVICES</h1>
+            <h3 class="pt-5">Product Support</h3>
+            <h3 calss="pt-2">Pc Setup & Support</h3>
+            <h3 calss="pt-2">Services</h3>
+            <h3 calss="pt-2">Extended Service Plans</h3>
+            <h3 calss="pt-2">Commumity</h3>
+        </div>
+    </div>
+    <div class="border border-gray-2  mx-auto max-w-[1000px] "></div>
+     <div class="pt-20 pb-10 mx-auto max-w-[1000px] flex justify-between ">
+        <h2 class="text-2xl text-white font-bold">SIGN UP FOR OUR EXCKUSIVE NEWSLETTER</h2>
+        <div calss=" border border-gray-50 text-gray-50 uppercase px-5 py-3 rounded-2xl">Email
+            <input type="email" class="outline-0 border border-gray-800 p-1 rounded-lg" placeholder="email">
+        </div>
+    </div>
+<div class="w-full bg-gray-600 h-[1px] max-w-[1000px] mx-auto"></div>
+    <div class="flex justify-between mx-auto pt-10 pt-10  max-w-[1000px]">
+        <h3>@2026 WordPress Theme SW Houskit.All Rights Reserved.Designed byWPThemeGo.Com.</h3>
+       <img src="c:\Users\OFFICE\Downloads\Colorful modern wavy header _ Free Vector_files\sp.png" alt="">
+        
+    </div>
+   
+    </section>
+    
+    
+</footer>
+<script>
+        function menuButton() {
+           const abc = document.getElementById('menu')
+           abc.classList.toggle('hidden')
+        }
+    </script>
+</body>
+
+</html>
